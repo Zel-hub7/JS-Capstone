@@ -34,6 +34,7 @@ header {
     margin: 4rem;
     padding: 15px;
     max-width: fit-content;
+    background-color:rgb(211, 219, 253)
 }
 .imgAndLogo {
     display: flex;
@@ -60,10 +61,19 @@ header {
 }
 input {
     border-radius: 3px;
+    border: solid rgb(0, 51, 34) 1px;
+    padding: 6px;
 }
 textarea {
     border-radius: 5px;
 }
 #displayed {
     margin-top: 3%;
+}
+#btn-comment {
+    padding: 8px;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
