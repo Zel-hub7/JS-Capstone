@@ -48,9 +48,19 @@ header {
     margin-top: 1rem;
 }
 .comments {
-    
+    margin-top: 20px;
     width: 100%;
 }
 #form {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 5px;
+}
+input {
+    border-radius: 3px;
+}
+textarea {
+    border-radius: 5px;
 }
