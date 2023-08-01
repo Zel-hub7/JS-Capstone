@@ -22,11 +22,9 @@ header {
     font-weight: bold;
 }
 #food {
-    width: 20rem;
+    width: 250px;
 }
-.food-container {
-    
-}
+
 .pop-up {
     display: flex;
     flex-direction: column;
@@ -35,13 +33,24 @@ header {
     border: solid black;
     margin: 4rem;
     padding: 3rem;
+    max-width: fit-content;
 }
 .imgAndLogo {
     display: flex;
-   
 }
 #cancel {
     margin-left: 25px;
     width: 30px;
 
+}
+.food-detail {
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.comments {
+    
+    width: 100%;
+}
+#form {
+    width: 100%;
 }
