@@ -22,7 +22,7 @@ header {
     font-weight: bold;
 }
 #food {
-    width: 25rem;
+    width: 20rem;
 }
 .food-container {
     
@@ -35,4 +35,13 @@ header {
     border: solid black;
     margin: 4rem;
     padding: 3rem;
+}
+.imgAndLogo {
+    display: flex;
+   
+}
+#cancel {
+    margin-left: 25px;
+    width: 30px;
+
 }
