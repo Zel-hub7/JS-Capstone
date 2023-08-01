@@ -21,3 +21,18 @@ header {
     font-size: 2rem;
     font-weight: bold;
 }
+#food {
+    width: 25rem;
+}
+.food-container {
+    
+}
+.pop-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    margin: 4rem;
+    padding: 3rem;
+}
