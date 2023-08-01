@@ -32,7 +32,7 @@ header {
     align-items: center;
     border: solid black;
     margin: 4rem;
-    padding: 3rem;
+    padding: 15px;
     max-width: fit-content;
 }
 .imgAndLogo {
@@ -63,4 +63,7 @@ input {
 }
 textarea {
     border-radius: 5px;
+}
+#displayed {
+    margin-top: 3%;
 }
